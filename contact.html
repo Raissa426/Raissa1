@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts CESAG</title>
+    <link rel="stylesheet" href="./Codes/Codes-site.css">
+<style>
+    .zone3{
+        text-align: left;
+        
+    }
+    input[type=radio]{
+        height: auto;
+        width: auto;
+    }
+    form{
+        width: 100%;
+        margin-bottom: 70px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    form{
+        background:linear-gradient(rgb(128, 187, 93),white);
+        border: 3px solid black;
+        padding: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.1em;
+    }
+    legend{
+        font-weight: bolder;
+    }
+    input{
+        width: auto;
+        height: auto;
+    }
+    textarea{
+        font-size: 1,5em;
+    }
+
+</style>
+</head>
+<body>
+    <div class="entete">
+        <div id="zone1">
+            <a href="./Index.html#pageacceuil"> <img src="./images/logo sesag.jpg" alt="Logo Sesag" width="8%"></a>
+        </div>
+        <div id="zone2">
+            <ul>
+                <li><a href="./index.html">acceuil</a></li>
+                <li><a href="./apropos.html">A PROPOS</a></li>
+                <li><a href="./activites.html">ACTIVITES</a></li>
+            </ul>
+        </div>
+    </div> 
+
+    <div class="zone3">
+       <form action="post">
+           <fieldset>
+               <legend>INFORMATION  PERSONNELLES SUR L'ETUDIANT</legend>
+               <br>
+               Nom:
+               <input type="login"><br>
+               Prénoms:
+               <input type="login"><br>
+               Date de naissance:
+               <input type="login"><br>
+               Lieu de naissance:
+               <input type="login"><br>
+               Nationalité:
+                <input type="login"><br>
+                Sexe:
+                <input type="radio" value="10"   name="sexe" id="a"><label for="a">masculin</label>
+                <input type="radio" value="11"  name="sexe" id="b"><label for="b">feminin</label>
+                <br>
+            </fieldset> 
+            <fieldset>
+                <legend>VOS COORDONNES</legend>
+                Téléphone:
+                <input type="login"><br>
+                Adresse physique:
+                <input type="email"><br>
+                Adresse e-mail:
+                <input type="text"><br>
+                Niveau:
+                <input type="radio"    value="3"   name="niveau" id="c"><label for="c"> licence</label>
+                <input type="radio"    value="4"   name="niveau"   id="g"><label for="g">master</label>
+                <br>
+                Inscrivez votre filiaire:
+                <br>
+                <textarea name="Ma filiaire" id="" cols="30" rows="10"> Ma filiaire est ...</textarea>
+            </fieldset>
+               
+           
+       </form>
+
+    </div>
+
+    <div id="zone4">
+        <div class="left">
+            <ul>
+                <li><i><u>Numéro de téléphone:</u> 33 839 73 60</i></li>
+                <li><i><u>Adresse e-mail:</u> <a href="http.//www.cesag.sn">www.cesag.sn</a></i></li>
+                <li><i><u>Autres pages </u></i></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li> <i><u>Horaires</u></i> </li>
+                <li>Lundi-Vendrdi: 08h-18h</li>
+                <li>Samedi: 08h-12h</li>
+            </ul>
+        </div>
+       
+    </div>
+    <div class="copy">
+        &copy; Copyright 2020| CESAG| TINE| LIPMEN 1
+    </div>
+
+</body>
+</html>
